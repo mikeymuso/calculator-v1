@@ -286,12 +286,3 @@ const mainModule = (function (UIMod, processMod) {
 })(UIModule, processModule);
 
 mainModule.init();
-
-// This was a quick function for debugging to access data
-function gd() {
-	console.log(processModule.getData());
-}
-
-function t() {
-	UIModule.triggerButton();
-}

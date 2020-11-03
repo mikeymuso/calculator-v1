@@ -1,0 +1,90 @@
+body {
+	font-family: sans-serif;
+}
+
+.container {
+	margin: 20% auto;
+	width: 310px;
+	height: 1vh;
+}
+
+.display {
+	width: 276px;
+	height: 50px;
+	margin: 10px 0;
+	background-color: whitesmoke;
+	text-align: right;
+	line-height: 50px;
+	font-size: 28px;
+	padding: 0 15px;
+}
+
+/***********************/
+/*       BUTTONS       */
+/***********************/
+
+.number-button,
+.operator-button {
+	display: inline-block;
+	width: 60px;
+	margin: 3px 1px;
+	padding: 5px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.equals-button {
+	float: right;
+	width: 73px;
+	margin: 3px 0 0 0;
+	height: 184px;
+	text-align: center;
+	line-height: 184px;
+	font-size: 20px;
+}
+
+.number-button,
+.operator-button,
+.equals-button,
+.display {
+	border: 1px solid #d6d6d6;
+	border-radius: 4px;
+}
+
+.number-button {
+	background-image: linear-gradient(to top, #efefef, #fff);
+}
+
+.operator-pressed,
+.operator-button {
+	background-image: linear-gradient(to top, #bdbdbd, #efefef);
+}
+
+.equals-button {
+	background-image: linear-gradient(to top, #6b9fd6, #6b9fd6);
+}
+
+.num-pressed,
+.number-button:hover {
+	background-image: linear-gradient(to top, #fff, #efefef);
+}
+
+.operator-pressed,
+.operator-button:hover {
+	background-image: linear-gradient(to top, #efefef, #bdbdbd);
+}
+
+.equals-pressed,
+.equals-button:hover {
+	background-image: linear-gradient(to top, #8bb1dd, #8bb1dd);
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	font-size: 12px;
+	padding: 10px;
+}
